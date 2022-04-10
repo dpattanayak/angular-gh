@@ -4,12 +4,12 @@
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
-    "build": "ng build --prod",
+    "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "heroku-postbuild": "ng build --prod",
     "deploy:gh": "ng build --prod --base-href='https://dpattanayak.github.io/angular-gh/' && sudo ngh",
-    "deploy:firebase": "ng build --prod && firebase deploy"
+    "deploy:firebase": "ng build --prod && firebase deploy",
+    "heroku-postbuild": "ng build --prod"
   },
   "private": true,
   "dependencies": {
