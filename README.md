@@ -62,3 +62,5 @@ Hosting URL: https://angular-f576a.web.app
 `heroku git:remote -a angular-f576a`
 
 `git push heroku master`
+
+`heroku open`
