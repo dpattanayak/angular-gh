@@ -7,7 +7,7 @@
     "build": "ng build --prod",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "postinstall": "ng build --prod",
+    "heroku-postbuild": "ng build --prod",
     "deploy:gh": "ng build --prod --base-href='https://dpattanayak.github.io/angular-gh/' && sudo ngh",
     "deploy:firebase": "ng build --prod && firebase deploy"
   },
