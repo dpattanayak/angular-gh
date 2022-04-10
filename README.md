@@ -1,8 +1,8 @@
 # Deployment
 
-    1. Github Pages
-    2. Firebase
-    3. Heroku
+1. [Github Pages](https://dpattanayak.github.io/angular-gh/)
+2. [Firebase](https://angular-f576a.web.app/)
+3. [Heroku](https://angular-f576a.herokuapp.com/)
 
 ### Github Pages
 
