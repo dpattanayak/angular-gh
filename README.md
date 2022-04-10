@@ -12,3 +12,7 @@
 `sudo npm install -g angular-cli-ghpages`
 
 `ng build --prod --base-href="https://dpattanayak.github.io/angular-gh/"`
+
+`sudo ngh`
+
+> Successfully published via angular-cli-ghpages! Have a nice day!
