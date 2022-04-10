@@ -11,9 +11,7 @@
 
 `sudo npm install -g angular-cli-ghpages`
 
-`ng build --prod --base-href="https://dpattanayak.github.io/angular-gh/"`
-
-`sudo ngh`
+`npm run deploy:gh`
 
 > Successfully published via angular-cli-ghpages! Have a nice day!
 
@@ -35,9 +33,7 @@
 
 > ✔  Firebase initialization complete!
 
-`ng build`
-
-`firebase deploy`
+`npm run deploy:firebase`
 
 To solve navigation problem add the following to firebase.json
 
@@ -55,3 +51,14 @@ Project Console: https://console.firebase.google.com/project/angular-f576a/overv
 Hosting URL: https://angular-f576a.web.app
 
 
+### Heroku
+
+- Create an app in [Heroku](https://dashboard.heroku.com/apps) or Using CLI "heroku create"
+- Then move the important packages from devDependencies to dependencies in package.json like (@angular/cli, @angular/compiler-cli, typescript etc)
+- Add a Node / Express server for hosting the dist/index.html file
+
+`heroku login`
+
+`heroku git:remote -a angular-f576a`
+
+`git push heroku master`
